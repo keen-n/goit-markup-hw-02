@@ -176,6 +176,7 @@ a {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
 }
 
 .portfolio-list {
