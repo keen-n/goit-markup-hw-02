@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
+  color: #434455;
 }
 
 ul {
@@ -13,11 +14,6 @@ a {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -63,11 +59,11 @@ a {
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-address {
@@ -90,7 +86,7 @@ a {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 .header-contacts-list {
@@ -100,12 +96,15 @@ a {
 }
 
 .header-contacts-link {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 /* -----------------------------------HERO------------------------------------ */
 
@@ -185,6 +184,7 @@ a {
 }
 
 .portfolio-title {
+  text-transform: capitalize;
 }
 
 .portfolio-list {
@@ -206,17 +206,7 @@ a {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 117%;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.footer-logo span {
-  color: #4d5ae5;
 }
 
 .footer-text {
